@@ -223,14 +223,14 @@ const SubscriptionSection = ({ subscriptionData, currentProfile }) => {
   }, [subscriptionData, currentProfile]);
 
   return (
-    <div className="bg-white rounded-xl p-4 mb-8 shadow h-[30vh] relative mt-20">
+    <div className="bg-white rounded-xl p-4 mb-8 shadow min-h-[30vh] relative mt-20">
       {/* Blue Header */}
       {/* Blue Header */}
       <div className="bg-primary text-white py-2 text-center rounded-lg font-semibold text-[1.3rem] mb-6 w-[94%] shadow-xl absolute top-[20px] left-[3%]">
         Active Subscriptions
       </div>
 
-      <div className="flex flex-wrap justify-center gap-4 mt-12">
+      <div className="flex flex-col flex-wrap justify-center gap-4 mt-12">
         {subscriptions.map((sub, index) => (
           <div key={index} className="bg-white rounded-xl p-6 shadow-lg max-w-[95%] flex-[1_1_300px] text-center border border-gray-200">
             <h3 className="text-gray-900 font-semibold text-2xl mb-4">Subscription</h3>
