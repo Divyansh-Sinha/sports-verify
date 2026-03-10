@@ -25,10 +25,10 @@ const profileData = {
   divyansh: {
     name: 'Divyansh Sinha',
     membershipId: 'JRD/FY24/4596',
-    email: 'divyansh@tatasteel.com',
-    category: 'TATA Employee',
+    email: 'divyansh@yahoo.com',
+    category: 'General Citizen',
     dob: '20-08-2001',
-    mobile: '8825340664',
+    mobile: '8825341544',
     gender: 'M',
     profileImage: '/divyansh.png',
     qrImage: '/qr.png',
@@ -41,7 +41,14 @@ const profileData = {
           startDate: dates.startDate,
           endDate: dates.endDate,
           frequency: 'Monthly'
-        }
+        },
+        {
+          subscriptionCode: 'T/FY25/99001',
+          discipline: 'Swimming',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
       ];
     })()
   },
