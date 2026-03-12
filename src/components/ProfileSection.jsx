@@ -315,25 +315,27 @@ const ProfileSection = () => {
     <>
       <div className="bg-white rounded-xl p-2 mt-10 mb-4 shadow relative">
         {/* Blue Header with Name */}
-        <div className="bg-primary text-white py-2 text-center rounded-lg font-semibold text-[1.3rem] mb-6 w-[95%] shadow-xl absolute top-[-20px] left-[2.5%]">
-          {data.name?.toUpperCase() || 'Member'}
+        <div className="bg-primary text-white py-1 text-center rounded-lg font-semibold mb-6 w-[95%] h-[40px] shadow-xl absolute top-[-20px] left-[2.5%]">
+          <p className="text-[14px] text-top ">
+            {data.name || 'Member'}
+          </p>
         </div>
 
         {/* Name, ID, Image Row */}
-        <div className="flex flex-row items-start px-6 mb-4 mt-20">
+        <div className="flex flex-row items-start px-6 mb-4 mt-16">
           <div className="flex flex-col gap-4">
             {/* Name Field */}
             <div>
-              <label className="text-lg font-medium text-gray-500 mb-3 block">Name</label>
-              <div className="bg-gray-300 text-gray-800 px-5 py-3 rounded text-xl font-medium w-[130px] inline-block shadow-inner overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] border border-blue-400">
-                {data.name?.toUpperCase()}
+              <label className="text-sm font-medium text-gray-500 mb-4 block">Name</label>
+              <div className="bg-gray-300 text-gray-800 px-4 py-3 rounded-md text-sm font-medium w-[90px] inline-block shadow-inner overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] border border-blue-400">
+                {data.name}
               </div>
             </div>
 
             {/* Row 2: Checkmark */}
             <div className="mb-10 mt-20">
-              <div className="flex justify-center items-center w-[75px] h-[75px] border-[5px] border-[#4caf50] rounded-full bg-white">
-                <svg className="w-[75px] h-[75px] text-[#4caf50]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div className="flex justify-center items-center w-[60px] h-[60px] border-[5px] border-[#4caf50] rounded-full bg-white">
+                <svg className="w-[60px] h-[60px] text-[#4caf50]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="square" strokeLinejoin="miter" strokeWidth="4" d="M5 13l4 4L19 7" />
                 </svg>
               </div>
@@ -341,39 +343,39 @@ const ProfileSection = () => {
 
             {/* Sports Area Selection */}
             <div className="mt-4">
-              <label className="text-lg font-medium text-gray-500 mb-1 block">Sports Area</label>
-              <button className="bg-gray-300 text-gray-700 px-5 py-3 rounded text-lg font-medium shadow-sm hover:bg-gray-400 transition-colors w-[120px] overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] block text-left border border-blue-400">
+              <label className="text-sm font-medium text-gray-500 mb-3 block">Sports Area</label>
+              <button className="bg-gray-300 text-gray-700 px-4 py-3 rounded-md text-sm font-medium shadow-sm hover:bg-gray-400 transition-colors w-[90px] overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] block text-left border border-blue-400">
                 Select Sports
               </button>
             </div>
 
           </div>
 
-          <div className="flex flex-col gap-4 w-[14%] ml-7">
+          <div className="flex flex-col ml-5 gap-9 w-[14%]">
             {/* Membership ID Field */}
             <div>
-              <label className="text-lg font-medium text-gray-500 mb-2 block leading-7">Membership ID.</label>
-              <div className="bg-gray-300 text-gray-800 px-5 py-3 rounded text-xl font-medium w-[125px] inline-block shadow-inner overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] border border-blue-400">
+              <label className="text-sm font-medium text-gray-500 mb-4 block leading-5">Membership ID.</label>
+              <div className="bg-gray-300 text-gray-800 px-4 py-3 rounded-md text-sm font-medium w-[90px] inline-block shadow-inner overflow-x-auto whitespace-nowrap [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] border border-blue-400">
                 {data.membershipId}
               </div>
             </div>
 
             {/* ACTION BUTTONS */}
             <div className="flex gap-4 pt-14 mt-[13vh]">
-              <button className="bg-[#4caf50] text-white px-8 py-3.5 rounded-lg font-bold text-lg shadow-md hover:bg-green-700 transition-colors">
+              <button className="bg-[#4caf50] text-white px-6 py-3.5 rounded-lg font-bold text-sm shadow-md w-[100px] hover:bg-green-700 transition-colors">
                 ENTRY
               </button>
             </div>
           </div>
 
           {/* Profile Image */}
-          <div className="ml-14 flex flex-col gap-[15rem]">
+          <div className="ml-12 flex flex-col gap-[14.8rem]">
             <img
-              className="w-[100px] h-[100px] rounded-xl object-cover shadow-sm border border-gray-100"
+              className="w-[80px] h-[80px] rounded-xl object-cover shadow-sm border border-gray-100"
               src={data.profileImage}
               alt="Profile"
             />
-            <button className="bg-[#d32f2f] text-white px-8 py-3.5  rounded-lg font-bold text-lg shadow-md hover:bg-red-700 transition-colors">
+            <button className="bg-[#d32f2f] text-white px-6 py-3.5  rounded-lg font-bold text-sm w-[100px] shadow-md hover:bg-red-700 transition-colors">
               EXIT
             </button>
           </div>

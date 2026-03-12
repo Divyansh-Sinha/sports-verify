@@ -5,8 +5,8 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="bg-primary text-white px-3 py-2 rounded-lg mb-1 flex justify-between items-center h-[65px] relative">
-      <img className="w-[150px] h-[65px] object-fill" src="/logo.png" alt="logo" />
+    <header className="bg-primary text-white px-1 py-2 rounded-lg mb-1 flex justify-between items-center h-[65px] relative">
+      <img className="w-[150px] h-[60px] object-fill" src="/logo.png" alt="logo" />
 
       {/* Desktop Navigation Links */}
       {/* <nav className="hidden sm:flex gap-4">
@@ -15,13 +15,13 @@ const Header = () => {
       </nav> */}
 
       {/* Hamburger Button */}
-      <button
+      {/* <button
         className="text-2xl sm:hidden"
         aria-label="Toggle menu"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         ☰
-      </button>
+      </button> */}
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
