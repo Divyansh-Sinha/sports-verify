@@ -226,26 +226,26 @@ const SubscriptionSection = ({ subscriptionData, currentProfile }) => {
     <div className="bg-white rounded-xl p-4 mb-8 shadow min-h-[30vh] relative mt-20">
       {/* Blue Header */}
       {/* Blue Header */}
-      <div className="bg-primary text-white py-2 text-center rounded-lg font-semibold text-[1.3rem] mb-6 w-[94%] shadow-xl absolute top-[20px] left-[3%]">
+      <div className="bg-primary text-white py-2 text-center rounded-lg font-semibold text-[1rem] mb-6 w-[94%] shadow-xl absolute top-[20px] left-[3%]">
         Active Subscriptions
       </div>
 
       <div className="flex flex-col flex-wrap justify-center gap-4 mt-12">
         {subscriptions.map((sub, index) => (
           <div key={index} className="bg-white rounded-xl p-6 shadow-lg max-w-[95%] flex-[1_1_300px] text-center border border-gray-200">
-            <h3 className="text-gray-900 font-semibold text-2xl mb-4">Subscription</h3>
+            <h3 className="text-gray-900 font-semibold text-sm mb-4">Subscription</h3>
 
             <div className="space-y-4">
-              <p className="text-gray-800 font-medium text-xl">
+              <p className="text-gray-800 font-medium text-sm">
                 Discipline: {sub.discipline}
               </p>
-              <p className="text-gray-800 font-medium text-xl">
+              <p className="text-gray-800 font-medium text-sm">
                 Start Date: {sub.startDate}
               </p>
-              <p className="text-gray-800 font-medium text-xl">
+              <p className="text-gray-800 font-medium text-sm">
                 End Date: {sub.endDate}
               </p>
-              <p className="text-gray-800 font-medium text-xl">
+              <p className="text-gray-800 font-medium text-sm">
                 Frequency: {sub.frequency}
               </p>
             </div>
