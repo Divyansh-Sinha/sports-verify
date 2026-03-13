@@ -259,6 +259,29 @@ const profileData = {
       ];
     })()
   },
+  shashi: {
+    name: 'Shashi Sekhar Pandey',
+    membershipId: 'JRD/FY24/18975',
+    email: 'shashi.pandey@gmail.com',
+    category: 'General Citizen',
+    dob: '09-11-2000',
+    mobile: '9145847978',
+    gender: 'M',
+    profileImage: '/shashi.jpg',
+    qrImage: '/shashi-qr.png',
+    subscriptionData: (() => {
+      const dates = getCurrentMonthDates();
+      return [
+        {
+          subscriptionCode: 'T/FY25/99001',
+          discipline: 'Swimming',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
+      ];
+    })()
+  },
   // Add more profiles here
 };
 
@@ -300,16 +323,6 @@ const ProfileSection = () => {
 
   // console.log(data, name);
 
-
-  const fields = [
-    { label: 'Name', value: data.name },
-    { label: 'Membership ID.', value: data.membershipId },
-    { label: 'Email', value: data.email },
-    { label: 'Member Category', value: data.category },
-    { label: 'DOB - Year & Month', value: data.dob },
-    { label: 'Mobile', value: data.mobile },
-    { label: 'Gender', value: data.gender },
-  ];
 
   return (
     <>
