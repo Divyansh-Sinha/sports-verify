@@ -256,6 +256,13 @@ const profileData = {
           endDate: dates.endDate,
           frequency: 'Monthly'
         },
+        {
+          subscriptionCode: 'T/FY26/12987',
+          discipline: 'Steel - Gym',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
       ];
     })()
   },
