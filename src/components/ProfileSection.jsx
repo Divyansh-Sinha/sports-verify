@@ -289,6 +289,29 @@ const profileData = {
       ];
     })()
   },
+  divyesh: {
+    name: 'Divyesh Nag',
+    membershipId: 'JRD/FY24/17654',
+    email: 'divyesh.nag@gmail.com',
+    category: 'General Citizen',
+    dob: '09-11-2000',
+    mobile: '9145847978',
+    gender: 'M',
+    profileImage: '/divyesh.jpeg',
+    qrImage: '/divyesh-qr.png',
+    subscriptionData: (() => {
+      const dates = getCurrentMonthDates();
+      return [
+        {
+          subscriptionCode: 'T/FY25/99001',
+          discipline: 'Badminton (Non AC)',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
+      ];
+    })()
+  },
   // Add more profiles here
 };
 
