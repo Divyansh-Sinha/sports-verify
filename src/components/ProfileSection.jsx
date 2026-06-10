@@ -250,19 +250,20 @@ const profileData = {
       const dates = getCurrentMonthDates();
       return [
         {
-          subscriptionCode: 'T/FY25/99001',
-          discipline: 'Badminton (Non AC)',
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          frequency: 'Monthly'
-        },
-        {
           subscriptionCode: 'T/FY26/12987',
           discipline: 'Steel - Gym',
           startDate: dates.startDate,
           endDate: dates.endDate,
           frequency: 'Monthly'
         },
+        {
+          subscriptionCode: 'T/FY25/99001',
+          discipline: 'Badminton (Non AC)',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
+
       ];
     })()
   },
