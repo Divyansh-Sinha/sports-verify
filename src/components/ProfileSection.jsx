@@ -264,6 +264,14 @@ const profileData = {
           frequency: 'Monthly'
         },
 
+        {
+          subscriptionCode: 'T/FY25/99001',
+          discipline: 'Swimming',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
+
       ];
     })()
   },
