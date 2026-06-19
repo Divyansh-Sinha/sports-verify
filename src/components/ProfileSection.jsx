@@ -290,7 +290,7 @@ const profileData = {
       return [
         {
           subscriptionCode: 'T/FY25/99001',
-          discipline: 'Swimming',
+          discipline: 'Badminton (Non AC)',
           startDate: dates.startDate,
           endDate: dates.endDate,
           frequency: 'Monthly'
