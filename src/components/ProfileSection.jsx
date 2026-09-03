@@ -98,75 +98,75 @@ const profileData = {
       ];
     })()
   },
-  abhijeet: {
-    name: 'Abhijeet Kumar',
-    membershipId: 'JRD/FY24/8856',
-    email: 'abhijeet.kumar@tatasteel.com',
-    category: 'TATA Employee',
-    dob: '07-09-2000',
-    mobile: '9263005329',
-    gender: 'M',
-    profileImage: '/abhijeet.jpg',
-    qrImage: '/abhijeet-qr.png',
-    subscriptionData: (() => {
-      const dates = getCurrentMonthDates();
-      return [
-        {
-          subscriptionCode: 'T/FY25/13579',
-          discipline: 'Badminton (Non AC)',
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          frequency: 'Monthly'
-        }
-      ];
-    })()
-  },
-  khushvinder: {
-    name: 'Khushvinder Singh',
-    membershipId: 'JRD/FY24/13387',
-    email: 'khushvinder.singh@tatasteel.com',
-    category: 'TATA Employee',
-    dob: '07-09-2000',
-    mobile: '6391511267',
-    gender: 'M',
-    profileImage: '/khushvinder.jpg',
-    qrImage: '/khushvinder-qr.png',
-    subscriptionData: (() => {
-      const dates = getCurrentMonthDates();
-      return [
-        {
-          subscriptionCode: 'T/FY25/98765',
-          discipline: 'Badminton (Non AC)',
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          frequency: 'Monthly'
-        }
-      ];
-    })()
-  },
-  sonal: {
-    name: 'Sonal Singh',
-    membershipId: 'JRD/FY24/16387',
-    email: 'sonal3401@gmail.com',
-    category: 'General Citizen',
-    dob: '07-09-2000',
-    mobile: '6391511267',
-    gender: 'M',
-    profileImage: '/sonal.jpg',
-    qrImage: '/khushvinder-qr.png',
-    subscriptionData: (() => {
-      const dates = getCurrentMonthDates();
-      return [
-        {
-          subscriptionCode: 'T/FY25/11223',
-          discipline: 'Badminton (Non AC)',
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          frequency: 'Monthly'
-        }
-      ];
-    })()
-  },
+  // abhijeet: {
+  //   name: 'Abhijeet Kumar',
+  //   membershipId: 'JRD/FY24/8856',
+  //   email: 'abhijeet.kumar@tatasteel.com',
+  //   category: 'TATA Employee',
+  //   dob: '07-09-2000',
+  //   mobile: '9263005329',
+  //   gender: 'M',
+  //   profileImage: '/abhijeet.jpg',
+  //   qrImage: '/abhijeet-qr.png',
+  //   subscriptionData: (() => {
+  //     const dates = getCurrentMonthDates();
+  //     return [
+  //       {
+  //         subscriptionCode: 'T/FY25/13579',
+  //         discipline: 'Badminton (Non AC)',
+  //         startDate: dates.startDate,
+  //         endDate: dates.endDate,
+  //         frequency: 'Monthly'
+  //       }
+  //     ];
+  //   })()
+  // },
+  // khushvinder: {
+  //   name: 'Khushvinder Singh',
+  //   membershipId: 'JRD/FY24/13387',
+  //   email: 'khushvinder.singh@tatasteel.com',
+  //   category: 'TATA Employee',
+  //   dob: '07-09-2000',
+  //   mobile: '6391511267',
+  //   gender: 'M',
+  //   profileImage: '/khushvinder.jpg',
+  //   qrImage: '/khushvinder-qr.png',
+  //   subscriptionData: (() => {
+  //     const dates = getCurrentMonthDates();
+  //     return [
+  //       {
+  //         subscriptionCode: 'T/FY25/98765',
+  //         discipline: 'Badminton (Non AC)',
+  //         startDate: dates.startDate,
+  //         endDate: dates.endDate,
+  //         frequency: 'Monthly'
+  //       }
+  //     ];
+  //   })()
+  // },
+  // sonal: {
+  //   name: 'Sonal Singh',
+  //   membershipId: 'JRD/FY24/16387',
+  //   email: 'sonal3401@gmail.com',
+  //   category: 'General Citizen',
+  //   dob: '07-09-2000',
+  //   mobile: '6391511267',
+  //   gender: 'M',
+  //   profileImage: '/sonal.jpg',
+  //   qrImage: '/khushvinder-qr.png',
+  //   subscriptionData: (() => {
+  //     const dates = getCurrentMonthDates();
+  //     return [
+  //       {
+  //         subscriptionCode: 'T/FY25/11223',
+  //         discipline: 'Badminton (Non AC)',
+  //         startDate: dates.startDate,
+  //         endDate: dates.endDate,
+  //         frequency: 'Monthly'
+  //       }
+  //     ];
+  //   })()
+  // },
   reshma: {
     name: 'Reshma Tungana',
     membershipId: 'JRD/FY24/14143',
@@ -190,29 +190,29 @@ const profileData = {
       ];
     })()
   },
-  srushti: {
-    name: 'Srushti Bharatkumar Patil',
-    membershipId: 'JRD/FY24/15243',
-    email: 'srushti.patil@tatasteel.com',
-    category: 'TATA Employee',
-    dob: '25-09-2001',
-    mobile: '8865564577',
-    gender: 'F',
-    profileImage: '/srushti.jpg',
-    qrImage: '/srushti-qr.png',
-    subscriptionData: (() => {
-      const dates = getCurrentMonthDates();
-      return [
-        {
-          subscriptionCode: 'T/FY25/55667',
-          discipline: 'Badminton (Non AC)',
-          startDate: dates.startDate,
-          endDate: dates.endDate,
-          frequency: 'Monthly'
-        }
-      ];
-    })()
-  },
+  // srushti: {
+  //   name: 'Srushti Bharatkumar Patil',
+  //   membershipId: 'JRD/FY24/15243',
+  //   email: 'srushti.patil@tatasteel.com',
+  //   category: 'TATA Employee',
+  //   dob: '25-09-2001',
+  //   mobile: '8865564577',
+  //   gender: 'F',
+  //   profileImage: '/srushti.jpg',
+  //   qrImage: '/srushti-qr.png',
+  //   subscriptionData: (() => {
+  //     const dates = getCurrentMonthDates();
+  //     return [
+  //       {
+  //         subscriptionCode: 'T/FY25/55667',
+  //         discipline: 'Badminton (Non AC)',
+  //         startDate: dates.startDate,
+  //         endDate: dates.endDate,
+  //         frequency: 'Monthly'
+  //       }
+  //     ];
+  //   })()
+  // },
   raj: {
     name: 'Deokrrish Singh',
     membershipId: 'JRD/FY24/15468',
@@ -308,6 +308,29 @@ const profileData = {
     gender: 'M',
     profileImage: '/divyesh.jpeg',
     qrImage: '/divyesh-qr.png',
+    subscriptionData: (() => {
+      const dates = getCurrentMonthDates();
+      return [
+        {
+          subscriptionCode: 'T/FY25/99001',
+          discipline: 'Badminton (Non AC)',
+          startDate: dates.startDate,
+          endDate: dates.endDate,
+          frequency: 'Monthly'
+        },
+      ];
+    })()
+  },
+  harshita: {
+    name: 'Harshita',
+    membershipId: 'JRD/FY24/18354',
+    email: 'harshita@gmail.com',
+    category: 'General Citizen',
+    dob: '09-11-2000',
+    mobile: '9145847978',
+    gender: 'F',
+    profileImage: '/harshita.jpeg',
+    qrImage: '/harshita-qr.png',
     subscriptionData: (() => {
       const dates = getCurrentMonthDates();
       return [
